@@ -1,0 +1,4 @@
+Điều kiện chạy MR:
+1. Điều kiện chạy: XLX4_I := 1, XLD3_I := 1;
+2. Điểm xuất phát: Bên trái MR_L := 1; chạy sang Phải MR_P := 1 dừng lại.
+3. Chạy Job: Nhấn nút MR_JL := 1 => MR chạy qua trái; MR_JR := 1 => MR chạy qua phải; khóa chéo ko cho  nhấn 2 cái cùng lúc.
