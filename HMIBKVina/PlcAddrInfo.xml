@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project filever="1.0">
+	<AddrInfo ScrnNo="6" HasNoPlcAddr="1">
+	</AddrInfo>
+	<AddrInfo ScrnNo="7" HasNoPlcAddr="1">
+	</AddrInfo>
+	<AddrInfo ScrnNo="8" HasNoPlcAddr="1">
+	</AddrInfo>
 	<AddrInfo ScrnNo="0" HasNoPlcAddr="1">
 	</AddrInfo>
-	<AddrInfo ScrnNo="2" HasNoPlcAddr="1">
+	<AddrInfo ScrnNo="2" HasNoPlcAddr="0">
+		<PLCAddr>
+			<WordAddr>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:232:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:238:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:236:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:234:0:25600" Len="2" Fast="0"/></WordAddr></PLCAddr></AddrInfo>
+	<AddrInfo ScrnNo="5" HasNoPlcAddr="1">
 	</AddrInfo>
+	<AddrInfo ScrnNo="4" HasNoPlcAddr="0">
+		<PLCAddr>
+			<WordAddr>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:250:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:252:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:254:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:258:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:256:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:260:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:264:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:262:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:266:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:270:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:268:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:272:0:25600" Len="2" Fast="0"/></WordAddr></PLCAddr></AddrInfo>
+	<AddrInfo ScrnNo="3" HasNoPlcAddr="0">
+		<PLCAddr>
+			<WordAddr>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:200:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:206:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:208:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:202:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:204:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:214:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:218:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:216:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:212:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:224:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:228:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:226:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:222:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:246:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:244:0:25600" Len="2" Fast="0"/>
+				<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:240:0:25600" Len="2" Fast="0"/></WordAddr></PLCAddr></AddrInfo>
 <AddrInfo ScrnNo="1" HasNoPlcAddr="0">
 
 <PLCAddr>
 <WordAddr>
-<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:X:0:0:28416" Len="1" Fast="0"/></WordAddr></PLCAddr></AddrInfo></project>
+<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:280:0:25600" Len="1" Fast="0"/>
+<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:282:0:25600" Len="1" Fast="0"/>
+<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:286:0:25600" Len="2" Fast="0"/>
+<Add Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:284:0:25600" Len="2" Fast="0"/></WordAddr></PLCAddr></AddrInfo></project>
