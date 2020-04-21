@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <G_Picture G_PictureVer="2.0">
-	<G_bmplib FileType="1" CurBmpTotal="28" AllBmpTotal="114">
+	<G_bmplib FileType="1" AllBmpTotal="115" CurBmpTotal="29">
 		<G_bmp Default="1" nId="1" nTotalStatus="2" nNewTotalStatus="0">
 			<MulStatus szFilename="Bmp1_0.dat" dwMID="0"/>
 			<MulStatus szFilename="Bmp1_1.dat" dwMID="1"/></G_bmp>
@@ -41,5 +41,8 @@
 			<MulStatus dwMID="0" szFilename="Bmp113_0.dat" bSavePng="0" bTransparent="0" cTransColor="0"/></G_bmp>
 		<G_bmp nId="114" nTotalStatus="2" nNewTotalStatus="0">
 			<MulStatus dwMID="0" IsVector="1" szPath="Lamp" szFilename="Lamp0454.svg"/>
-			<MulStatus dwMID="1" IsVector="1" szPath="Lamp" szFilename="Lamp0455.svg"/></G_bmp></G_bmplib>
+			<MulStatus dwMID="1" IsVector="1" szPath="Lamp" szFilename="Lamp0455.svg"/></G_bmp>
+		<G_bmp nId="115" szFilename="Bmp115" nTotalStatus="2" nNewTotalStatus="0">
+			<MulStatus dwMID="0" IsVector="1" szPath="Icon" szFilename="Icon0003.svg" bSavePng="0" bTransparent="0" cTransColor="0"/>
+			<MulStatus dwMID="1" IsVector="1" szPath="Icon" szFilename="Icon0004.svg" bSavePng="0" bTransparent="0" cTransColor="0"/></G_bmp></G_bmplib>
 </G_Picture>

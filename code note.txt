@@ -1,0 +1,71 @@
+
+(* Initialize FX2N-1HC => MQ control *)
+TO( M8002, K0, K0 , K0, K1 );
+DTO( M8002, K2147483647, K0 , K2, K1 );
+DTO( M8002 , REAL_TO_DINT( Real_MQ ) , K0, K12 , K1);
+
+M11 := ModeAuto;
+M13 := ModeAuto;
+M10 := CommandMQ_F OR pushManMQ_F;
+M14 := NOT M10;
+PLS(M10, M22); (*YS output set *)
+RST( LDF(TRUE, M34), M8055);
+RST( LDF(TRUE, M34), CommandMQ_F);
+
+TO( TRUE, K4M10, K0 , K4, K1 );
+DFROM( TRUE, K0 , K20 , K1, C234 );
+FROM( ModeAuto, K0 , K27 , K1 , K3M30 );
+DTO( LDF(TRUE, M10) , K0 , K0, K20 , K1); (* software reset counter *)
+
+(*Manual*)	
+PLF(NOT ModeAuto AND pushManMQ_F, M20); (*YS output reset*)
+	
+
+(* BTX:  CommandBTX  *)
+RST(LDP(TRUE, CommandBTX AND XLKC1_O AND XLC2_I AND RelayXLKC1), CommandXLKC1);
+SET(LDP(TRUE, CommandBTX AND XLKC1_I), CommandXLC2);
+SET(LDP(TRUE, XLC2_O AND CommandBTX AND RelayXLC2), CommandXLKC1);
+RST(LDP(TRUE, XLKC1_O AND CommandBTX AND RelayXLKC1), CommandXLC2);
+RST(LDF(TRUE,RelayXLC2 AND CommandBTX), CommandBTX);
+
+XLKC1(SetAutoMan := ModeAuto,
+			PushMan := pushManXLKC1, LimitInput := FALSE,
+			SetAutoRun := CommandXLKC1, Output := RelayXLKC1);
+
+XLC2(SetAutoMan := ModeAuto, PushMan := pushManXLC2, 
+			LimitInput := FALSE,
+			SetAutoRun := CommandXLC2, Output := RelayXLC2);
+			
+
+RST(LDP(TRUE, status[0]), CommandMR_R);
+RST(LDP(TRUE, Status[0]), CommandMXC_F);
+RST(LDP(TRUE, Status[0]), CommandMQ_F);
+RST(LDP(TRUE, Status[0]), CommandMXDT_F);
+RST(LDP(TRUE, Status[0]), CommandMXDP_F);
+RST(LDP(TRUE, status[0]), CommandMR_L);
+RST(LDP(TRUE, Status[0]), CommandMXC_Z);
+RST(LDP(TRUE, Status[0]), CommandMQ_Z);
+RST(LDP(TRUE, Status[0]), CommandMXDT_Z);
+RST(LDP(TRUE, Status[0]), CommandMXDP_Z);
+RST(LDP(TRUE, Status[0]), CommandXLXC_O);
+RST(LDP(TRUE, Status[0]), CommandXLXD_O);
+RST(LDP(TRUE, Status[0]), CommandXLXC_I);
+RST(LDP(TRUE, Status[0]), CommandXLXD_I);
+RST(LDP(TRUE, Status[0]), CommandPHA_2); 
+RST(LDP(TRUE, Status[0]), CommandPHA_1); 
+RST(LDP(TRUE, Status[0]), CommandXLDT); 
+RST(LDP(TRUE, Status[0]), CommandXLDP); 
+RST(LDP(TRUE, Status[0]), CommandBTX);
+RST(LDP(TRUE, Status[0]), CommandXLKC1);
+RST(LDP(TRUE, Status[0]), CommandXLTT); 
+RST(LDP(TRUE, Status[0]), CommandXLTP); 
+
+SET(LDP(TRUE, NOT MR_L AND Status[0]), CommandMR_L);
+SET(LDP(TRUE, NOT MXC_ZX AND Status[0]), CommandMXC_Z);
+SET(LDP(TRUE, NOT MQ_ZX AND Status[0]), CommandMQ_Z);
+SET(LDP(TRUE, NOT MXDT_ZX AND Status[0]), CommandMXDT_Z);
+SET(LDP(TRUE, NOT MXDP_ZX AND Status[0]), CommandMXDP_Z);
+SET(LDP(TRUE, NOT XLX4_I AND Status[0]), CommandXLXC_I); 
+SET(LDP(TRUE, NOT XLD3_I AND Status[0]), CommandXLXD_I); 
+SET(LDP(TRUE, NOT XLX5_O AND Status[0]), CommandPHA_1); 
+SET(LDP(TRUE, NOT XLD6_O AND Status[0]), CommandXLD6);

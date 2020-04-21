@@ -3,7 +3,7 @@
 <PartInfo PartType="Rect" PartName="REC_0" PartClassifyType="OtherClassType" PartID="4_REC_0">
 <General Area="0 0 1024 80" Rx="0" BorderColor="0xb07928 0" Pattern="-1" BgColor="0x0 0" PatternNew="1" BgColorNew="0xff8080 -1" ChangeColor="0xffffff 0" IsCirleAngle="0" IsCorlorAddr="0" LineTranValue="0" IsTranValue="0" LineWidth="1" CirleAngle="1" IsMoveControl="0"/></PartInfo>
 <PartInfo PartType="Grid" PartName="Grid_0" PartClassifyType="OtherClassType" PartID="4_Grid_0">
-<General Area="108 185 908 485" RowCount="5" ColCount="4" BorderColor="0xb07928 0" FormLineColor="0x0 0" Transparent="-1" Pattern="1" AlternateColor="0x0 0" PatternNew="1" LineWidth="3" BorderLineWidth="3" LineTranValue="0" BgColorNew="0xfefab8 0"/>
+<General Area="108 185 908 485" RowCount="5" ColCount="4" BorderColor="0xb07928 0" FormLineColor="0x0 0" Transparent="-1" Pattern="1" AlternateColor="0x0 0" PatternNew="0" LineWidth="3" BorderLineWidth="3" LineTranValue="0" BgColorNew="0xfefab8 0"/>
 <GridHead HasRowHead="0" RowHeadColor="0x0 0" HasColHead="0" ColHeadColor="0x0 0" CustomWidth="0" RowHeadHeight="10" ColHeadWidth="10"/></PartInfo>
 <PartInfo PartType="Text" PartName="TXT_0" PartClassifyType="OtherClassType" PartID="4_TXT_0">
 <General TextContent="LOẠI SẢN PHẨM" LaFrnColor="0xff -1" IsBackColor="0" BgColor="0xff80 -1" CharSize="2114141414141414" Bold="0" StartPt="361 20" Width="299" Height="41" Area="361 20 660 61"/></PartInfo>
@@ -41,7 +41,7 @@
 <Lock Lockmate="0" UnDrawLock="0" LockMode="0"/>
 <ClickPopTrig/>
 <UserAuthority IsUseUserAuthority="0" IsPopUserLoginWin="0" PopType="0" IsHidePart="0"/>
-<Label Status="0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0" Bold="0" LaIndexID="RST" CharSize="1914141414141414" LaFrnColor="0x0 0" svgfile="Button\Button0506.svg" dark="0xb00606 0" light="0xff0000 0" hlight="0xf76b00 0" shadow="0x0 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0"/>
+<Label Status="0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0" Bold="0" LaIndexID="RST" CharSize="1914141414141414" LaFrnColor="0x0 0" svgfile="Button\Button0506.svg" dark="0xb00606 0" light="0xff8000 0" hlight="0xf76b00 0" shadow="0x0 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0"/>
 <Label Status="1" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0" Bold="0" LaIndexID="RST" CharSize="1914141414141414" LaFrnColor="0x0 0" svgfile="Button\Button0506.svg" dark="0xb00606 0" light="0xff00 0" hlight="0xf76b00 0" shadow="0x0 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0"/></PartInfo>
 <PartInfo PartType="DateDisplay" PartName="DD_0" PartClassifyType="Time" PartID="4_DD_0">
 <General Desc="DD_0" Area="884 0 1024 40" FigureFile="" BmpIndex="-1" BorderColor="0xf7e7ad 0" LaFrnColor="0x0 0" BgColor="0xfdf0c4 0" CharSize="1414141414141414" DateType="1"/>
@@ -90,7 +90,7 @@
 <Lock Lockmate="0" UnDrawLock="0" LockMode="0"/>
 <ClickPopTrig/>
 <UserAuthority IsUseUserAuthority="0" IsPopUserLoginWin="0" PopType="0" IsHidePart="0"/>
-<Label Status="0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0" Bold="0" LaIndexID="B8" CharSize="1914141414141414" LaFrnColor="0x0 0" svgfile="Button\Button0506.svg" dark="0xb00606 0" light="0xff0000 0" hlight="0xf76b00 0" shadow="0x0 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0"/>
+<Label Status="0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0" Bold="0" LaIndexID="B8" CharSize="1914141414141414" LaFrnColor="0x0 0" svgfile="Button\Button0506.svg" dark="0xb00606 0" light="0xff8000 0" hlight="0xf76b00 0" shadow="0x0 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0"/>
 <Label Status="1" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0" Bold="0" LaIndexID="B8" CharSize="1914141414141414" LaFrnColor="0x0 0" svgfile="Button\Button0506.svg" dark="0xb00606 0" light="0xff00 0" hlight="0xf76b00 0" shadow="0x0 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0"/></PartInfo>
 <PartInfo PartType="BitSwitch" PartName="BS_2" PartClassifyType="Switch" PartID="4_BS_2">
 <General Desc="BS_0" Area="509 188 705 244" OperateAddr="M228" Fast="0" BitFunc="3" Monitor="1" MonitorAddr="M228" FigureFile="" BorderColor="0xf7e7ad 0" BmpIndex="105" Align="3" LaStartPt="70 0" BitShowReverse="0" IsIndirectR="0" IsIndirectW="0" MinClickTime="0"/>
@@ -101,7 +101,7 @@
 <Lock Lockmate="0" UnDrawLock="0" LockMode="0"/>
 <ClickPopTrig/>
 <UserAuthority IsUseUserAuthority="0" IsPopUserLoginWin="0" PopType="0" IsHidePart="0"/>
-<Label Status="0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0" Bold="0" LaIndexID="B9" CharSize="1914141414141414" LaFrnColor="0x0 0" svgfile="Button\Button0506.svg" dark="0xb00606 0" light="0xff0000 0" hlight="0xf76b00 0" shadow="0x0 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0"/>
+<Label Status="0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0" Bold="0" LaIndexID="B9" CharSize="1914141414141414" LaFrnColor="0x0 0" svgfile="Button\Button0506.svg" dark="0xb00606 0" light="0xff8000 0" hlight="0xf76b00 0" shadow="0x0 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0"/>
 <Label Status="1" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0" Bold="0" LaIndexID="B9" CharSize="1914141414141414" LaFrnColor="0x0 0" svgfile="Button\Button0506.svg" dark="0xb00606 0" light="0xff00 0" hlight="0xf76b00 0" shadow="0x0 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0"/></PartInfo>
 <PartInfo PartType="BitSwitch" PartName="BS_3" PartClassifyType="Switch" PartID="4_BS_3">
 <General Desc="BS_0" Area="709 188 905 244" OperateAddr="M229" Fast="0" BitFunc="3" Monitor="1" MonitorAddr="M229" FigureFile="" BorderColor="0xf7e7ad 0" BmpIndex="105" Align="3" LaStartPt="56 0" BitShowReverse="0" IsIndirectR="0" IsIndirectW="0" MinClickTime="0"/>
@@ -112,7 +112,7 @@
 <Lock Lockmate="0" UnDrawLock="0" LockMode="0"/>
 <ClickPopTrig/>
 <UserAuthority IsUseUserAuthority="0" IsPopUserLoginWin="0" PopType="0" IsHidePart="0"/>
-<Label Status="0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0" Bold="0" LaIndexID="B10" CharSize="1914141414141414" LaFrnColor="0x0 0" svgfile="Button\Button0506.svg" dark="0xb00606 0" light="0xff0000 0" hlight="0xf76b00 0" shadow="0x0 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0"/>
+<Label Status="0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0" Bold="0" LaIndexID="B10" CharSize="1914141414141414" LaFrnColor="0x0 0" svgfile="Button\Button0506.svg" dark="0xb00606 0" light="0xff8000 0" hlight="0xf76b00 0" shadow="0x0 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0"/>
 <Label Status="1" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0" Bold="0" LaIndexID="B10" CharSize="1914141414141414" LaFrnColor="0x0 0" svgfile="Button\Button0506.svg" dark="0xb00606 0" light="0xff00 0" hlight="0xff0000 0" shadow="0x0 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0"/></PartInfo>
 <PartInfo PartType="Numeric" PartName="NUM_3" PartClassifyType="InputAndShow" PartID="4_NUM_3">
 <General Desc="NUM_0" Area="509 247 705 303" CharSize="1714141414141414" WordAddr="D252" Fast="0" nuCount="1" HighLowChange="0" IsInput="0" KbdScreen="1000" IsPopKeyBrod="0" FigureFile="" IsKeyBoardRemark="0" LaStartPt="0 0" BorderColor="0xf7e7ad 0" LaFrnColor="0x0 0" BgColor="0xfdf0c4 0" BmpIndex="-1" IsHideNum="0" HighZeroPad="0" IsShowPwd="0" ZeroNoDisplay="0" IsIndirectR="0" IsIndirectW="0"/>
