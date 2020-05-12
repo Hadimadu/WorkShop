@@ -41,4 +41,4 @@
 <PartInfo PartType="Text" PartName="TXT_3" PartClassifyType="OtherClassType" PartID="0_TXT_3">
 <General TextContent="Techwaves CO,..Ltd" LaFrnColor="0x4000 -1" IsBackColor="0" BgColor="0xfdf0c4 0" CharSize="4914141414141414" Bold="0" StartPt="156 520" Width="279" Height="36" Area="156 520 435 556"/></PartInfo>
 <PartInfo PartType="Text" PartName="TXT_7" PartClassifyType="OtherClassType" PartID="0_TXT_7">
-<General TextContent="214/3 Bui Dinh Tuy, BinhThanh Dictrist, HCM City." LaFrnColor="0x0 0" IsBackColor="0" BgColor="0xfdf0c4 0" CharSize="6314141414141414" Bold="0" StartPt="156 557" Width="505" Height="26" Area="156 557 661 583"/></PartInfo></ScrInfo>
+<General TextContent="214/17 Bui Dinh Tuy, BinhThanh Dictrist, HCM City." LaFrnColor="0x0 0" IsBackColor="0" BgColor="0xfdf0c4 0" CharSize="6314141414141414" Bold="0" StartPt="156 557" Width="505" Height="26" Area="156 557 674 583"/></PartInfo></ScrInfo>
