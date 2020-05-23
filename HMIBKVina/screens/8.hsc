@@ -66,7 +66,7 @@
 <General Desc="BL_0" Area="112 58 212 86" MonitorAddr="X37" Fast="0" BmpIndex="111" Align="3" LaStartPt="9 3" BitShowReverse="0" FigureFile="" BorderColor="0xf7e7ad 0"/>
 <Extension TouchState="1" Buzzer="1"/>
 <MoveZoom DataFormatMZ="0" MutipleMZ="1.000000000000000"/>
-<TrigHide UseShowHide="0" HideType="0" IsHideAllTime="0"/>
+<TrigHide UseShowHide="1" TrigHideAddr="x37" HideType="0" IsHideAllTime="0"/>
 <Glint UseGlint="0" Glintfrq="0"/>
 <Label Status="0" Bold="0" LaIndexID="XLKDT - I" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xffffff 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/>
 <Label Status="1" Bold="0" LaIndexID="XLKDT - I" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xff00 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/></PartInfo>
@@ -90,7 +90,7 @@
 <General Desc="BL_0" Area="488 58 588 86" MonitorAddr="X40" Fast="0" BmpIndex="111" Align="3" LaStartPt="10 3" BitShowReverse="0" FigureFile="" BorderColor="0xf7e7ad 0"/>
 <Extension TouchState="1" Buzzer="1"/>
 <MoveZoom DataFormatMZ="0" MutipleMZ="1.000000000000000"/>
-<TrigHide UseShowHide="0" HideType="0" IsHideAllTime="0"/>
+<TrigHide UseShowHide="1" TrigHideAddr="x40" HideType="0" IsHideAllTime="0"/>
 <Glint UseGlint="0" Glintfrq="0"/>
 <Label Status="0" Bold="0" LaIndexID="XLKDP - I" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xffffff 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/>
 <Label Status="1" Bold="0" LaIndexID="XLKDP - I" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xff00 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/></PartInfo>
@@ -169,7 +169,7 @@
 <Label Status="0" Bold="0" LaIndexID="XLC2 - O" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xffffff 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/>
 <Label Status="1" Bold="0" LaIndexID="XLC2 - O" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xff00 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/></PartInfo>
 <PartInfo PartType="IndicatorLamp" PartName="BL_22" PartClassifyType="Switch" PartID="5_BL_22">
-<General Desc="BL_0" Area="524 448 624 476" MonitorAddr="X33" Fast="0" BmpIndex="111" Align="3" LaStartPt="16 3" BitShowReverse="0" FigureFile="" BorderColor="0xf7e7ad 0"/>
+<General Desc="BL_0" Area="408 448 508 476" MonitorAddr="X33" Fast="0" BmpIndex="111" Align="3" LaStartPt="16 3" BitShowReverse="0" FigureFile="" BorderColor="0xf7e7ad 0"/>
 <Extension TouchState="1" Buzzer="1"/>
 <MoveZoom DataFormatMZ="0" MutipleMZ="1.000000000000000"/>
 <TrigHide UseShowHide="1" TrigHideAddr="X34" HideType="1" IsHideAllTime="0"/>
@@ -185,7 +185,7 @@
 <Label Status="0" Bold="0" LaIndexID="XLX5 - O" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xffffff 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/>
 <Label Status="1" Bold="0" LaIndexID="XLX5 - O" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xff00 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/></PartInfo>
 <PartInfo PartType="IndicatorLamp" PartName="BL_24" PartClassifyType="Switch" PartID="5_BL_24">
-<General Desc="BL_0" Area="408 448 508 476" MonitorAddr="X34" Fast="0" BmpIndex="111" Align="3" LaStartPt="13 3" BitShowReverse="0" FigureFile="" BorderColor="0xf7e7ad 0"/>
+<General Desc="BL_0" Area="524 448 624 476" MonitorAddr="X34" Fast="0" BmpIndex="111" Align="3" LaStartPt="13 3" BitShowReverse="0" FigureFile="" BorderColor="0xf7e7ad 0"/>
 <Extension TouchState="1" Buzzer="1"/>
 <MoveZoom DataFormatMZ="0" MutipleMZ="1.000000000000000"/>
 <TrigHide UseShowHide="1" TrigHideAddr="X33" HideType="1" IsHideAllTime="0"/>
@@ -201,10 +201,10 @@
 <Label Status="0" Bold="0" LaIndexID="MQ - Z" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xffffff 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/>
 <Label Status="1" Bold="0" LaIndexID="MQ - Z" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xff00 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/></PartInfo>
 <PartInfo PartType="IndicatorLamp" PartName="BL_6" PartClassifyType="Switch" PartID="5_BL_6">
-<General Desc="BL_0" Area="595 32 695 60" MonitorAddr="Y01" Fast="0" BmpIndex="111" Align="3" LaStartPt="8 2" BitShowReverse="0" FigureFile="" BorderColor="0xf7e7ad 0"/>
+<General Desc="BL_0" Area="595 32 695 60" MonitorAddr="Y05" Fast="0" BmpIndex="111" Align="3" LaStartPt="8 2" BitShowReverse="0" FigureFile="" BorderColor="0xf7e7ad 0"/>
 <Extension TouchState="1" Buzzer="1"/>
 <MoveZoom DataFormatMZ="0" MutipleMZ="1.000000000000000"/>
-<TrigHide UseShowHide="1" TrigHideAddr="Y01" HideType="0" IsHideAllTime="0"/>
+<TrigHide UseShowHide="1" TrigHideAddr="Y05" HideType="0" IsHideAllTime="0"/>
 <Glint UseGlint="0" Glintfrq="0"/>
 <Label Status="0" Bold="0" LaIndexID="MQ - RUN" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xffffff 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/>
 <Label Status="1" Bold="0" LaIndexID="MQ - RUN" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xff00 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/></PartInfo>
@@ -241,10 +241,10 @@
 <Label Status="0" Bold="0" LaIndexID="MQ - Z" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xffffff 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/>
 <Label Status="1" Bold="0" LaIndexID="MQ - Z" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xff00 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/></PartInfo>
 <PartInfo PartType="IndicatorLamp" PartName="BL_29" PartClassifyType="Switch" PartID="5_BL_29">
-<General Desc="BL_0" Area="5 32 105 60" MonitorAddr="Y05" Fast="0" BmpIndex="111" Align="3" LaStartPt="8 2" BitShowReverse="0" FigureFile="" BorderColor="0xf7e7ad 0"/>
+<General Desc="BL_0" Area="5 32 105 60" MonitorAddr="Y01" Fast="0" BmpIndex="111" Align="3" LaStartPt="8 2" BitShowReverse="0" FigureFile="" BorderColor="0xf7e7ad 0"/>
 <Extension TouchState="1" Buzzer="1"/>
 <MoveZoom DataFormatMZ="0" MutipleMZ="1.000000000000000"/>
-<TrigHide UseShowHide="1" TrigHideAddr="Y05" HideType="0" IsHideAllTime="0"/>
+<TrigHide UseShowHide="1" TrigHideAddr="Y01" HideType="0" IsHideAllTime="0"/>
 <Glint UseGlint="0" Glintfrq="0"/>
 <Label Status="0" Bold="0" LaIndexID="MQ - RUN" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xffffff 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/>
 <Label Status="1" Bold="0" LaIndexID="MQ - RUN" CharSize="1818181818181818" LaFrnColor="0x0 0" svgfile="Rectangle\Rectangle0402.svg" dark="0x0 0" light="0xe5e5e5 0" hlight="0xff00 0" shadow="0xff0000 0" shape="0x0 0" gstartcolor="0x0 0" gmidcolor="0x0 0" gendcolor="0x0 0" Pattern="1" FrnColor="0xfdf0c4 0" BgColor="0xfdf0c4 0"/></PartInfo>
